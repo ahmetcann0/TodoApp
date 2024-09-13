@@ -25,7 +25,7 @@ TodoApp is a task management application built with React and TypeScript. It all
 
 ### Home Page
 
-![Home Page](assets/homepage.png)
+![UI](public/TodoApp_UI.png)
 
 ## Setup
 
