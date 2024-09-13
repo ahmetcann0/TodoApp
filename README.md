@@ -1,6 +1,6 @@
 # TodoApp
 
-TodoApp is a task management application built with React and TypeScript. It allows users to add tasks, mark them as completed, delete tasks, and bulk delete completed tasks. The user interface is created using React, while TypeScript ensures type safety.
+TodoApp is a task management application built with React and TypeScript. It allows users to add tasks, mark them as completed, delete tasks, and bulk delete completed tasks. The UI is created using React, while TypeScript ensures type safety.
 
 ## Technologies Used
 
@@ -25,7 +25,7 @@ TodoApp is a task management application built with React and TypeScript. It all
 
 ### Home Page
 
-![UI](public/TodoApp_UI.png)
+![Home Page](https://github.com/ahmetcann0/TodoApp/blob/main/TodoApp_UI.png)
 
 ## Setup
 
@@ -43,4 +43,4 @@ To get the project running locally:
     npm run dev
     ```
 
-Visit `http://localhost:3000` in your browser to see the application in action.
+Visit `http://localhost:5173` in your browser to see the application in action. If the port is different, please check your `vite.config.ts` file for the correct port number.
