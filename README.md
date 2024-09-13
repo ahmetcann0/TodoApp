@@ -1,50 +1,46 @@
-# React + TypeScript + Vite
+# TodoApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TodoApp is a task management application built with React and TypeScript. It allows users to add tasks, mark them as completed, delete tasks, and bulk delete completed tasks. The user interface is created using React, while TypeScript ensures type safety.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: For building the user interface.
+- **TypeScript**: For type safety and improved developer experience.
+- **Vite**: For fast and modern build tooling.
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **`src`**: Contains the source code for the application.
+  - **`src/assets`**: Static files, such as SVG icons.
+  - **`src/components`**: Application components.
+  - **`src/data`**: Data files for the project.
+  - **`src/hooks`**: Custom React hooks.
+  - **`src/types`**: TypeScript type definitions.
+  - **`src/App.tsx`**: Main application component.
+  - **`src/index.css`**: CSS for styling.
+  - **`src/main.tsx`**: Entry point and rendering logic.
+  - **`src/vite-env.d.ts`**: Type definitions for Vite.
 
-- Configure the top-level `parserOptions` property like this:
+## Screenshots
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Home Page
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+![Home Page](assets/homepage.png)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Setup
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+To get the project running locally:
+
+1. **Install dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+2. **Start the development server**:
+
+    ```bash
+    npm run dev
+    ```
+
+Visit `http://localhost:3000` in your browser to see the application in action.
