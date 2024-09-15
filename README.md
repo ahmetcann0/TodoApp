@@ -1,6 +1,6 @@
 # TodoApp
 
-TodoApp is a task management application built with React and TypeScript. It allows users to add tasks, mark them as completed, delete tasks, and bulk delete completed tasks. The UI is created using React, while TypeScript ensures type safety.
+TodoApp is a web application built with React and TypeScript. It enables users to efficiently manage tasks by allowing them to add new tasks, mark tasks as completed, delete tasks, and bulk delete completed tasks.
 
 ## Technologies Used
 
